@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="faq">
+      <div class="faq__image">
+        <div class="desktop">
+          <img
+            src="Assets/images/bg-pattern-desktop.svg"
+            class="pattern"
+            alt=""
+          />
+          <img
+            src="Assets/images/illustration-woman-online-desktop.svg"
+            alt=""
+            class="woman"
+          />
+          <img
+            src="Assets/images/illustration-box-desktop.svg"
+            alt=""
+            class="box"
+          />
+        </div>
+        <div class="mobile">
+          <img
+            src="Assets/images/illustration-woman-online-mobile.svg"
+            alt=""
+          />
+          <img src="Assets/images/bg-pattern-mobile.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="faq__body">
+        <h1>FAQ</h1>
+
+        <button class="accordion">
+          <span class="accordion__button">
+            How many team members can I invite?
+          </span>
+          <img src="Assets/images/icon-arrow-down.svg" alt="" />
+        </button>
+        <div>
+          You can invite up to 2 additional users on the Free plan. There is no
+          limit on team members for the Premium plan.
+        </div>
+
+        <button class="accordion">
+          <span class="accordion__button">
+            What is the maximum file upload size?
+          </span>
+          <img src="Assets/images/icon-arrow-down.svg" alt="" />
+        </button>
+        <div>
+          No more than 2GB. All files in your account must fit your allotted
+          storage space.
+        </div>
+
+        <button class="accordion">
+          <span class="accordion__button">How do I reset my password?</span>
+          <img src="Assets/images/icon-arrow-down.svg" alt="" />
+        </button>
+        <div>
+          Click “Forgot password” from the login page or “Change password” from
+          your profile page. A reset link will be emailed to you.
+        </div>
+
+        <button class="accordion">
+          <span class="accordion__button">Can I cancel my subscription?</span>
+          <img src="Assets/images/icon-arrow-down.svg" alt="" />
+        </button>
+        <div>
+          Yes! Send us a message and we’ll process your request no questions
+          asked.
+        </div>
+
+        <button class="accordion">
+          <span class="accordion__button">
+            Do you provide additional support?
+          </span>
+          <img src="Assets/images/icon-arrow-down.svg" alt="" />
+        </button>
+        <div>
+          Chat and email support is available 24/7. Phone lines are open during
+          normal business hours.
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      Coded by
+      <a href="https://www.linkedin.com/in/leandrnvs/" target="_blank">
+        Leandro Neves
+      </a>
+    </footer>
+
+    <script src="Assets/js/main.js"></script>
+  </body>
+</html>
