@@ -155,7 +155,7 @@ body {
     left: -57%;
     top: -60%;
     width: 800px;
-    clip-path: inset(0 0 0% 57%);
+    clip-path: inset(32% 0 0% 57%);
   }
   .faq__image .desktop .box {
     left: -6rem;
